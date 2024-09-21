@@ -6,7 +6,7 @@ function navbar() {
     return (
         <Navbar expand="lg" className="bnavbar-dark bg-dark">
             <Container fluid>
-                <Navbar.Brand href="#" className='text-success'>Druglord's Legacy</Navbar.Brand>
+                <Navbar.Brand href="#" className='text-success'>Druglord&apos;s Legacy</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
