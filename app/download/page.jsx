@@ -8,8 +8,8 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import InfoIcon from '@mui/icons-material/Info';
 
-function Page() {  // Komponentennamen mit einem Großbuchstaben
-    const [releaseDate, setReleaseDate] = useState("2024-09-10"); // Korrektur des Datumsformats
+function Page() {  
+    const [releaseDate, setReleaseDate] = useState("2024-10-10"); 
     const [isDownloadEnabled, setIsDownloadEnabled] = useState(false);
     const [show, setShow] = useState(false);
 
@@ -33,11 +33,14 @@ function Page() {  // Komponentennamen mit einem Großbuchstaben
 
             <Offcanvas show={show} onHide={handleClose} className='bg-dark text-success'>
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                    <Offcanvas.Title>Security Problem</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
-                    Some text as placeholder. In real life you can have the elements you
-                    have chosen. Like, text, images, lists, etc.
+                    <Image className='custom-img mb-4' src={"/img/Warning.png"} width={350} height={350} />
+                    Translation: <br />
+                    The computer was protected by Windows Microsoft Defender SmartScreen prevented an unknown app from starting. Running this app may pose a risk to your PC. App: druglords legacy.exe Publisher: Unknown Publisher <br /> <br />
+                    Explanation: <br />
+                    This warning appears because Microsoft Defender SmartScreen has detected an application that is not recognized or verified and therefore considered a potential risk to the computer. The protection mechanism then blocks the execution of the application to protect both the user and the system. That's because I don't have a license for Windows because it cost around 500$ a year, but it's safe and if have any concerns u can check the file by an malware scanner as example virustotal.com.
                 </Offcanvas.Body>
             </Offcanvas>
 
@@ -66,4 +69,4 @@ function Page() {  // Komponentennamen mit einem Großbuchstaben
     );
 }
 
-export default Page;  // Exportiere die Komponente mit dem neuen Namen
+export default Page; 
