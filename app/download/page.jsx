@@ -40,7 +40,7 @@ function Page() {
                     Translation: <br />
                     The computer was protected by Windows Microsoft Defender SmartScreen prevented an unknown app from starting. Running this app may pose a risk to your PC. App: druglords legacy.exe Publisher: Unknown Publisher <br /> <br />
                     Explanation: <br />
-                    This warning appears because Microsoft Defender SmartScreen has detected an application that is not recognized or verified and therefore considered a potential risk to the computer. The protection mechanism then blocks the execution of the application to protect both the user and the system. That&apos;s because I don&apos;t have a license for Windows because it cost around 500$ a year, but it&apos;s safe and if have any concerns u can check the file by an malware scanner as example virustotal.com.
+                    This warning appears because Microsoft Defender SmartScreen has detected an application that is not recognized or verified and therefore considered a potential risk to the computer. The protection mechanism then blocks the execution of the application to protect both the user and the system. That&apos;s because I don&apos;t have a license for Windows because it cost around 500$ a year, but it&apos;s safe and if you have any concerns u can check the file by an malware scanner as example virustotal.com.
                 </Offcanvas.Body>
             </Offcanvas>
 
