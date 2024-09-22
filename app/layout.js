@@ -1,5 +1,6 @@
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Head from "next/head";
 
 export const metadata = {
   title: "Druglord's Legacy",
