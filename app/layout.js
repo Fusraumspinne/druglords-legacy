@@ -4,7 +4,7 @@ import Head from "next/head";
 
 export const metadata = {
   title: "Druglord's Legacy",
-  description: "Dive into the world of drug cultivation and business with Druglord's Legacy. Build your empire and become the ultimate cannabis tycoon!",
+  description: "Dive into the world of drug cultivation and business with Druglord's Legacy. Build your empire and become the ultimate drug tycoon!",
 };
 
 export default function RootLayout({ children }) {
