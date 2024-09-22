@@ -105,7 +105,7 @@ function Page() {
                             <a className='text-success text-decoration-none' href="/Druglord's Legacy.zip" download><DownloadIcon /> Download - Test Version v.0.1.0</a>
                         </Button>
                     ) : (
-                        <Button className='bg-dark button-100' variant="outline-success" onClick={handleCounterUpdate}>
+                        <Button className='bg-dark button-100' variant="outline-success" disabled>
                             <DownloadIcon /> Download Test Version v.0.1.0
                         </Button>
                     )}
