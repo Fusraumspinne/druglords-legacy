@@ -15,7 +15,7 @@ function navbar() {
                         navbarScroll
                     >
                         <Nav.Link href="/download" className='text-success'>Game Download</Nav.Link>
-                        <Nav.Link href="/" className='text-success'>Roadmap</Nav.Link>#
+                        <Nav.Link href="/roadmap" className='text-success'>Roadmap</Nav.Link>#
                         <Nav.Link href="/" className='text-success'>Communityhub</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
