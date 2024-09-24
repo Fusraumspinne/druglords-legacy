@@ -9,7 +9,7 @@ import Image from 'next/image';
 import InfoIcon from '@mui/icons-material/Info';
 
 function Page() {
-    const [releaseDate, setReleaseDate] = useState("2024-10-10");
+    const [releaseDate, setReleaseDate] = useState("2024-10-14");
     const [isDownloadEnabled, setIsDownloadEnabled] = useState(false);
     const [show, setShow] = useState(false);
 
