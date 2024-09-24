@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import Navbar from '@/components/navbar';
+import NavigationBar from '@/components/navbar';
 import { Button, Offcanvas } from 'react-bootstrap';
 import DownloadIcon from '@mui/icons-material/Download';
 import { useState, useEffect } from 'react';
@@ -74,7 +74,7 @@ function Page() {
 
     return (
         <div>
-            <Navbar />
+            <NavigationBar />
 
             <Offcanvas show={show} onHide={handleClose} className='bg-dark text-success'>
                 <Offcanvas.Header closeButton>

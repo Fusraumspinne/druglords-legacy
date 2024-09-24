@@ -19,3 +19,19 @@
 .custom-hr{
     border: 1px solid #198754;
 }
+
+.banner-card {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 1000;
+}
+.banner-button {
+    padding: 5px 10px;
+    background: none;
+    border: 1px solid #198754;
+    border-radius: 10px;
+} 

@@ -2,7 +2,7 @@
 
 import { Button, Container, Form, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
-function navbar() {
+function NavigationBar() {
     return (
         <Navbar expand="lg" className="bnavbar-dark bg-dark">
             <Container fluid>
@@ -24,4 +24,4 @@ function navbar() {
     )
 }
 
-export default navbar
+export default NavigationBar

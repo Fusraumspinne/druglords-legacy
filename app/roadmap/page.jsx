@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '@/components/navbar'
+import NavigationBar from '@/components/navbar'
 
 function Page() {
     return (
         <div>
-            <Navbar />
+            <NavigationBar />
 
             <div style={{ marginTop: "100px" }} className='text-success d-flex align-items-center justify-content-center'>
                 <div className='custom-card me-3'>
