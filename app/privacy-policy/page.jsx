@@ -9,11 +9,11 @@ function Page() {
         <div style={{ marginTop: "100px" }} className='text-success'>
             <div>
                 <h3>1. Introduction</h3>
-                <p>Welcome to the official website for Druglord's Legacy. This Privacy Policy explains how we handle your information when you visit our website, where you can download the game, watch trailers, and read about it. We value your privacy and are committed to protecting your personal information.</p>
+                <p>Welcome to the official website for Druglords Legacy. This Privacy Policy explains how we handle your information when you visit our website, where you can download the game, watch trailers, and read about it. We value your privacy and are committed to protecting your personal information.</p>
             </div>
             <div>
                 <h3>2. Information We Collect</h3>
-                <p>We do not actively collect personal information from users. The only data we track is related to the download counter for our game. This information does not identify individual users and is used solely to provide statistics on how many times Druglord's Legacy has been downloaded.</p>
+                <p>We do not actively collect personal information from users. The only data we track is related to the download counter for our game. This information does not identify individual users and is used solely to provide statistics on how many times Druglords Legacy has been downloaded.</p>
             </div>
             <div>
                 <h3>3. Use of Information</h3>
