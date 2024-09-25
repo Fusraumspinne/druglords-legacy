@@ -102,11 +102,11 @@ function Page() {
 
                     {isDownloadEnabled ? (
                         <Button className='bg-dark button-100' variant="outline-success" onClick={handleCounterUpdate}>
-                            <a className='text-success text-decoration-none' href="/Druglord's Legacy.zip" download><DownloadIcon /> Download - Test Version v.0.1.0</a>
+                            <a className='text-success text-decoration-none' href="/Druglord's Legacy.zip" download><DownloadIcon /> Download - Test Version v.0.1.0 | Size ~ 500MB</a>
                         </Button>
                     ) : (
                         <Button className='bg-dark button-100' variant="outline-success" disabled>
-                            <DownloadIcon /> Download Test Version v.0.1.0
+                            <DownloadIcon /> Download Test Version v.0.1.0 | Size ~ 500MB
                         </Button>
                     )}
                 </div>
