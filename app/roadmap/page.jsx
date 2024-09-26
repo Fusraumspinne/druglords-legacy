@@ -22,7 +22,7 @@ function Page() {
                         <li className='text-decoration-line-through'>Dealer</li>
                         <li className='text-decoration-line-through'>Illegal Moneysystem</li>
                         <li className='text-decoration-line-through'>Simple Lawyer</li>
-                        <li>Main Menu / Pause Menu</li>
+                        <li className='text-decoration-line-through'>Main Menu / Pause Menu</li>
                         <li>Level System</li>
                         <li>New Buildings / Warehouses</li>
                         <li>Shops for Automatic Drug Selling (Gas Station / Jeweler)</li>
