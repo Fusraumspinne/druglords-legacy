@@ -24,11 +24,11 @@ function Page() {
                         <li className='text-decoration-line-through'>Illegal Moneysystem</li>
                         <li className='text-decoration-line-through'>Simple Lawyer</li>
                         <li className='text-decoration-line-through'>Main Menu / Pause Menu</li>
+                        <li className='text-decoration-line-through'>New Buildings / Warehouses</li>
+                        <li className='text-decoration-line-through'>Shops for Automatic Drug Selling (Gas Station / Jeweler)</li>
                         <li>Level System</li>
-                        <li>New Buildings / Warehouses</li>
-                        <li>Shops for Automatic Drug Selling (Gas Station / Jeweler)</li>
-                        <li>Lawyer for Money Laundering</li>
                         <li>Workers to Work for You</li>
+                        <li>Lawyer for Money Laundering</li>
                         <li>Undercover Police</li>
                         <li>Distributors</li>
                         <li>New Pickup System</li>
