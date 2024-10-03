@@ -1,37 +1,73 @@
-.button-100{
-    width: 100%;
+.text_white {
+  color: white !important;
 }
 
-.custom-card{
-    width: 500px;
-    height: 660px;
-    border: 1px solid #198754;
-    border-radius: 10px;
+.w_100 {
+  width: 100%;
 }
 
-.custom-img{
-    width: 100%;
-    height: auto;
-    border: 1px solid #198754;
-    border-radius: 10px;
+.h_100 {
+  height: 100%;
 }
 
-.custom-hr{
-    border: 1px solid #198754;
+.custom_blur {
+  backdrop-filter: blur(1rem);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.banner-card {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    color: white;
-    padding: 15px;
-    border-radius: 8px;
-    z-index: 1000;
+.custom_border {
+  border-radius: 7px;
 }
-.banner-button {
-    padding: 5px 10px;
-    background: none;
-    border: 1px solid #198754;
-    border-radius: 10px;
-} 
+
+.border_l {
+  border-radius: 7px 0 0 7px;
+}
+
+.border_r {
+  border-radius: 0 7px 7px 0;
+}
+
+.cookies_card {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding: 15px;
+}
+
+.image_container {
+  position: relative;
+  display: inline-block;
+}
+
+.text_overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 350px;
+}
+
+.content_container {
+  width: 1000px;
+}
+
+.small_text {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.gradient_background {
+  background: linear-gradient(
+    90deg,
+    rgba(56, 12, 145, 0.3),
+    rgba(156, 34, 71, 0.3)
+  );
+}
+
+.custom_divider{
+    
+    border: 1px solid #832121;
+}

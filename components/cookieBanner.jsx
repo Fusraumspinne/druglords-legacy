@@ -15,12 +15,12 @@ function CookieBanner() {
     }
 
     return (
-        <div className='banner-card d-flex flex-column justify-content-center align-items-start text-success'>
+        <div className='cookies_card custom_blur custom_border d-flex flex-column justify-content-center align-items-start'>
             <p className='m-0'>By continuing to use our website,</p>
             <p className='m-0'>
-                you agree to our <a href="/privacy-policy" className='text-success'>Privacy Policy</a>
+                you agree to our <a href="/privacy-policy">Privacy Policy</a>
             </p>
-            <button className='banner-button mt-2 button-100 text-success' onClick={acceptCookies}>
+            <button className='mt-2 button-100' onClick={acceptCookies}>
                 Accept
             </button>
         </div>
