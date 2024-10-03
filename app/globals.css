@@ -21,11 +21,19 @@
 }
 
 .border_l {
-  border-radius: 7px 0 0 7px;
+  border-radius: 7px 0 0 7px !important;
 }
 
 .border_r {
-  border-radius: 0 7px 7px 0;
+  border-radius: 0 7px 7px 0 !important;
+}
+
+.border_o{
+  border-radius: 7px 7px 0 0 !important;
+}
+
+.border_u{
+  border-radius: 0 0 7px 7px !important;
 }
 
 .cookies_card {
@@ -34,11 +42,6 @@
   right: 20px;
   color: white;
   padding: 15px;
-}
-
-.image_container {
-  position: relative;
-  display: inline-block;
 }
 
 .text_overlay {
@@ -54,6 +57,10 @@
   width: 1000px;
 }
 
+.roadmap_container{
+  width: 500px;
+}
+
 .small_text {
   font-size: 12px;
   font-weight: 500;
@@ -67,7 +74,12 @@
   );
 }
 
-.custom_divider{
-    
-    border: 1px solid #832121;
+.custom_divider {
+  border: 1px solid #832121;
+}
+
+.custom_btn {
+  background: linear-gradient(85.75deg, #ff3975 2.06%, #8346fe 95.46%);
+  border-radius: 7px;
+  border: 0;
 }

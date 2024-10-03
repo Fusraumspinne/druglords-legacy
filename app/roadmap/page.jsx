@@ -1,17 +1,18 @@
 import React from 'react'
 import NavigationBar from '@/components/navbar'
+import Footer from '@/components/footer'
 
 function Page() {
     return (
         <div>
             <NavigationBar />
 
-            <div style={{ marginTop: "100px" }} className='text-success d-flex align-items-center justify-content-center'>
-                <div className='custom-card me-3'>
+            <div className='text_white d-flex align-items-start justify-content-center p-5'>
+                <div className='roadmap_container me-3 p-5'>
                     <div className='d-flex justify-content-center m-0 p-0'>
                         <h2>Before Realese</h2>
                     </div>
-                    <hr className='m-0 p-0 custom-hr' />
+                    <hr className='m-0 p-0' />
                     <ul>
                         <li className='text-decoration-line-through'>Starter Region of the Open World Map</li>
                         <li className='text-decoration-line-through'>Player</li>
@@ -44,13 +45,15 @@ function Page() {
                     </ul>
 
                 </div>
-                <div className='custom-card ms-3'>
+                <div className='roadmap_container ms-3 p-5'>
                     <div className='d-flex justify-content-center m-0 p-0'>
                         <h2>After Realese</h2>
                     </div>
-                    <hr className='m-0 p-0 custom-hr' />
+                    <hr className='m-0 p-0' />
                 </div>
             </div>
+
+            <Footer/>
         </div>
     )
 }

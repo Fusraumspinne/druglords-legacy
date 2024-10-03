@@ -15,7 +15,6 @@ function NavigationBar() {
                     >
                         <Nav.Link href="/download" className='text_white'>Game Download</Nav.Link>
                         <Nav.Link href="/roadmap" className='text_white'>Roadmap</Nav.Link>
-                        <Nav.Link href="/" className='text_white'>Communityhub</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

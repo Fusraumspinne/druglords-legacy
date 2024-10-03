@@ -1,3 +1,4 @@
+import Footer from '@/components/footer'
 import NavigationBar from '@/components/navbar'
 import React from 'react'
 
@@ -6,7 +7,8 @@ function Page() {
     <div>
         <NavigationBar/>
 
-        <div style={{ marginTop: "100px" }} className='text-success'>
+        <div className='text_white'>
+            <div className='p-5'></div>
             <div>
                 <h3>1. Introduction</h3>
                 <p>Welcome to the official website for Druglords Legacy. This Privacy Policy explains how we handle your information when you visit our website, where you can download the game, watch trailers, and read about it. We value your privacy and are committed to protecting your personal information.</p>
@@ -37,9 +39,11 @@ function Page() {
             </div>
             <div>
                 <h3>8. Contact Us</h3>
-                <p>If you have any questions or concerns about this Privacy Policy, please feel free to contact us on <a href="https://discord.gg/82HdVhnUZT" className='text-success'>Discord</a></p>
+                <p>If you have any questions or concerns about this Privacy Policy, please feel free to contact us on <a href="https://discord.gg/82HdVhnUZT" className='text_white'>Discord</a></p>
             </div>
         </div>
+
+        <Footer/>
     </div>
   )
 }
