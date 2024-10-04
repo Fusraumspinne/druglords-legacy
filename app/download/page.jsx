@@ -118,11 +118,13 @@ function Page() {
                         <Image className='w_100 h_100 border_o' src={"/img/Platzhalter.png"} width={1920} height={1080} />
 
                         {isDownloadEnabled ? (
-                            <Button className='custom_btn border-0 w_100 border_u' onClick={handleCounterUpdate}>
-                                <a className='text-decoration-none' href="/Druglord's Legacy.zip" download><DownloadIcon /> Download - Test Version v.0.1.0 | Size ~ 500MB</a>
-                            </Button>
+                            <a className='text-decoration-none text_white' href="/Druglord's Legacy.zip" download>
+                                <Button className='custom_btn border-0 w_100 border_u' onClick={handleCounterUpdate}>
+                                    <DownloadIcon /> Download - Test Version v.0.1.0 | Size ~ 500MB
+                                </Button>
+                            </a>
                         ) : (
-                            <Button className='custom_btn border-0 w_100 border_u' disabled>
+                            <Button className='custom_btn border-0 w_100 border_u text_white' disabled>
                                 <DownloadIcon /> Download Test Version v.0.1.0 | Size ~ 500MB
                             </Button>
                         )}
