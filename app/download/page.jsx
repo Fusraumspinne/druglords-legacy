@@ -74,10 +74,10 @@ function Page() {
 
 
     return (
-        <div>
+        <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
             <NavigationBar />
 
-            <Offcanvas show={show} onHide={handleClose} className='bg-dark text_white'>
+            <Offcanvas show={show} onHide={handleClose} data-bs-theme="dark" className='bg-dark text_white'>
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title className='fs-3'>Download Informations</Offcanvas.Title>
                 </Offcanvas.Header>
@@ -104,34 +104,35 @@ function Page() {
                 </Offcanvas.Body>
             </Offcanvas>
 
-            <div className='d-flex justify-content-center'>
+            <div style={{ flex: 1 }}>
+                <div className="d-flex justify-content-center">
+                    <div className="content_container text_white">
+                        <div className="pt-5">
+                            <div className="pt-5 d-flex">
+                                <p className="fs-2 fw-bold m-0 p-0">Game Download</p>
+                                <Button className="p-0 bg-dark border-0 ms-2" onClick={handleShow}><InfoIcon /></Button>
+                            </div>
 
-                <div className='content_container text_white'>
-                    <div className='pt-5'>
-                        <div className='pt-5 d-flex'>
-                            <p className='fs-2 fw-bold m-0 p-0'>Game Download</p>
-                            <Button className='p-0 bg-dark border-0 ms-2' onClick={handleShow}><InfoIcon /></Button>
-                        </div>
+                            <p>Release Date: {releaseDate} | Download Counter: {downloadCounter}</p>
 
-                        <p>Release Date: {releaseDate} | Download Counter: {downloadCounter}</p>
+                            <Image className="w_100 h_100 border_o" src={"/img/Platzhalter.png"} width={1920} height={1080} />
 
-                        <Image className='w_100 h_100 border_o' src={"/img/Platzhalter.png"} width={1920} height={1080} />
-
-                        {isDownloadEnabled ? (
-                            <a className='text-decoration-none text_white' href="/Druglord's Legacy.zip" download>
-                                <Button className='custom_btn border-0 w_100 border_u' onClick={handleCounterUpdate}>
-                                    <DownloadIcon /> Download - Test Version v.0.1.0 | Size ~ 500MB
+                            {isDownloadEnabled ? (
+                                <a className="text-decoration-none text_white" href="/Druglord's Legacy.zip" download>
+                                    <Button className="custom_btn border-0 w_100 border_u" onClick={handleCounterUpdate}>
+                                        <div className="normal_font"><DownloadIcon /> Download - Test Version v.0.1.0 | Size ~ 500MB</div>
+                                    </Button>
+                                </a>
+                            ) : (
+                                <Button className="custom_btn border-0 w_100 border_u text_white" disabled>
+                                    <div className="normal_font"><DownloadIcon /> Download - Test Version v.0.1.0 | Size ~ 500MB</div>
                                 </Button>
-                            </a>
-                        ) : (
-                            <Button className='custom_btn border-0 w_100 border_u text_white' disabled>
-                                <DownloadIcon /> Download Test Version v.0.1.0 | Size ~ 500MB
-                            </Button>
-                        )}
+                            )}
 
-                        <div className='d-flex align-items-center mt-2'>
-                            <Button className='p-0 bg-dark border-0 me-2' onClick={handleShow}><InfoIcon /></Button>
-                            <p className='m-0 p-0'>Please read the additional information about the download!</p>
+                            <div className="d-flex align-items-center mt-2">
+                                <Button className="p-0 bg-dark border-0 me-2" onClick={handleShow}><InfoIcon /></Button>
+                                <p className="m-0 p-0 normal_font">Please read the additional information about the download!</p>
+                            </div>
                         </div>
                     </div>
                 </div>

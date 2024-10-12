@@ -4,16 +4,22 @@ import Footer from '@/components/footer'
 
 function Page() {
     return (
-        <div>
+        <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
             <NavigationBar />
 
-            <div className='text_white d-flex align-items-start justify-content-center p-5'>
-                <div className='roadmap_container me-3 p-5'>
+            <div className='pt-5'>
+                <div className='pt-5'>
+
+                </div>
+            </div>
+
+            <div style={{ flex: 1 }} className='text_white d-flex align-items-start justify-content-center mx-2'>
+                <div className='roadmap_container'>
                     <div className='d-flex justify-content-center m-0 p-0'>
-                        <h2>Before Realese</h2>
+                        <h2>Roadmap</h2>
                     </div>
                     <hr className='m-0 p-0' />
-                    <ul>
+                    <ul className='normal_font'>
                         <li className='text-decoration-line-through'>Starter Region of the Open World Map</li>
                         <li className='text-decoration-line-through'>Player</li>
                         <li className='text-decoration-line-through'>Sportcar/Truck</li>
@@ -26,8 +32,8 @@ function Page() {
                         <li className='text-decoration-line-through'>Main Menu / Pause Menu</li>
                         <li className='text-decoration-line-through'>New Buildings / Warehouses</li>
                         <li className='text-decoration-line-through'>Shops for Automatic Drug Selling (Gas Station / Jeweler)</li>
-                        <li>Level System</li>
-                        <li>Workers to Work for You</li>
+                        <li className='text-decoration-line-through'>Level System</li>
+                        <li className='text-decoration-line-through'>Workers to Work for You</li>
                         <li>Lawyer for Money Laundering</li>
                         <li>Undercover Police</li>
                         <li>Distributors</li>
@@ -45,15 +51,9 @@ function Page() {
                     </ul>
 
                 </div>
-                <div className='roadmap_container ms-3 p-5'>
-                    <div className='d-flex justify-content-center m-0 p-0'>
-                        <h2>After Realese</h2>
-                    </div>
-                    <hr className='m-0 p-0' />
-                </div>
             </div>
 
-            <Footer/>
+            <Footer />
         </div>
     )
 }
