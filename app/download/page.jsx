@@ -95,7 +95,7 @@ function Page() {
                     </div>
                     <div>
                         <p className='fs-4'>Security Problem</p>
-                        <Image className='custom-img mb-4' src={"/img/Warning.png"} width={350} height={350} />
+                        <Image className='mb-4 h_100 w_100' src={"/img/Warning.png"} width={550} height={550} />
                         <p className='mb-1 p-0 fs-5'>Translation:</p>
                         <p>The Windows Microsoft Defender SmartScreen has prevented the launch of an unknown application. Running this application could pose a risk to your PC. Application: druglords legacy.exe Publisher: Unknown Publisher</p>
                         <p className='mb-1 p-0 fs-5'>Explanation:</p>
