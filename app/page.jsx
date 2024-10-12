@@ -21,7 +21,7 @@ export default function Home() {
             textAlign: 'center'
           }}>
             <p className="fs-1 fw-bold">Druglord&apos;s Legacy</p>
-            <p className="fs-5 fw-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatibus labore voluptatem consectetur iure eligendi a libero nisi doloribus quaerat illo, sapiente vero esse vel.</p>
+            <p className="fs-5 fw-medium">"Druglord's Legacy" is a tycoon game where you build a drug empire by growing, harvesting, and selling drugs to expand your business and rise to the top of the market.</p>
           </div>
 
           <div className="text_white text_overlay responsive_header" style={{
@@ -32,7 +32,7 @@ export default function Home() {
             textAlign: 'center'
           }}>
             <p className="fs-3 fw-bold">Druglord&apos;s Legacy</p>
-            <p className="fs-6 fw-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatibus labore voluptatem consectetur iure eligendi a libero nisi doloribus quaerat illo, sapiente vero esse vel.</p>
+            <p className="fs-6 fw-medium">"Druglord's Legacy" is a tycoon game where you build a drug empire by growing, harvesting, and selling drugs to expand your business and rise to the top of the market.</p>
           </div>
 
           <div className="text_white text_overlay last_header" style={{
@@ -42,8 +42,8 @@ export default function Home() {
             transform: 'translate(-50%, -10%)',
             textAlign: 'center'
           }}>
-            <p className="fs-4 fw-bold">Druglord&apos;s Legacy</p>
-            <p className="small_text fw-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatibus labore voluptatem consectetur iure eligendi a libero nisi doloribus quaerat illo, sapiente vero esse vel.</p>
+            <p className="fs-4 fw-bold m-0">Druglord&apos;s Legacy</p>
+            <p className="small_text fw-medium">"Druglord's Legacy" is a tycoon game where you build a drug empire by growing, harvesting, and selling drugs to expand your business and rise to the top of the market.</p>
           </div>
         </div>
 
@@ -149,7 +149,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-4 p-0">
-                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={100} />
+                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={80} />
                 </div>
               </div>
               <div className="row mt-3 w-100  mx-0">
@@ -162,7 +162,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-4 p-0">
-                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={100} />
+                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={80} />
                 </div>
               </div>
               <div className="row mt-3 w-100  mx-0">
@@ -175,7 +175,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-4 p-0">
-                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={100} />
+                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={80} />
                 </div>
               </div>
               <div className="row mt-3 news_4 w-100  mx-0">
@@ -188,7 +188,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-4 p-0">
-                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={100} />
+                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={80} />
                 </div>
               </div>
             </div>

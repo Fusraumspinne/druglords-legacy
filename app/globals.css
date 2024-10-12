@@ -171,10 +171,6 @@
     width: 350px;
   }
 
-  .small_text {
-    font-size: 8px;
-  }
-
   .news_4 {
     display: none !important;
   }
@@ -226,5 +222,23 @@
     color: white;
     padding: 15px;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content_container {
+    width: 250px;
+  }
+
+  .small_text{
+    font-size: 10px;
+  }
+
+  .custom_video {
+    height: 135px;
+  }
+
+  .text_overlay {
+    width: 275px;
   }
 }
