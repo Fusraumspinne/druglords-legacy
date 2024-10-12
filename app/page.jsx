@@ -11,26 +11,65 @@ export default function Home() {
       <NavigationBar />
 
       <div>
-        <div className="image_container">
-          <Image className='w_100 h_100' src={"/img/Platzhalter.png"} width={1920} height={1080} />
-          <div className="text_white text_overlay">
+        <div className="image_container" style={{ position: 'relative', width: '100%', height: '100%' }}>
+          <Image className="w_100 h_100" src={"/img/Hauptmenu.png"} width={1920} height={1080} />
+          <div className="text_white text_overlay normal_version" style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            textAlign: 'center'
+          }}>
             <p className="fs-1 fw-bold">Druglord&apos;s Legacy</p>
             <p className="fs-5 fw-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatibus labore voluptatem consectetur iure eligendi a libero nisi doloribus quaerat illo, sapiente vero esse vel.</p>
+          </div>
+
+          <div className="text_white text_overlay responsive_header" style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            textAlign: 'center'
+          }}>
+            <p className="fs-3 fw-bold">Druglord&apos;s Legacy</p>
+            <p className="fs-6 fw-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatibus labore voluptatem consectetur iure eligendi a libero nisi doloribus quaerat illo, sapiente vero esse vel.</p>
+          </div>
+
+          <div className="text_white text_overlay last_header" style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -10%)',
+            textAlign: 'center'
+          }}>
+            <p className="fs-4 fw-bold">Druglord&apos;s Legacy</p>
+            <p className="small_text fw-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatibus labore voluptatem consectetur iure eligendi a libero nisi doloribus quaerat illo, sapiente vero esse vel.</p>
           </div>
         </div>
 
         <div className="d-flex flex-column align-items-center justify-content-center text_white">
-          <div className="content_container mt-5">
+          <div className="content_container mt-5 normal_version">
             <p className="fs-2 fw-semibold">Latest News</p>
             <div className="row">
               <div className="col-8">
-                <Image className='w_100 h_100 custom_border' src={"/img/Platzhalter.png"} width={1920} height={1080} />
+                <iframe
+                  className='w_100 h_100 custom_border'
+                  width="1920"
+                  height="1080"
+                  src="https://www.youtube.com/embed/OEkEPuziyiU?si=QgQg43wjU-Fc-l9b&autoplay=0&mute=0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen>
+                </iframe>
               </div>
+
               <div className="col-4">
                 <div className="row">
                   <div className="col-8 border_l gradient_background">
                     <div>
-                      <p className="small_text m-0 mt-1">v0.1.0</p>
+                      <p className="small_text m-0 mt-1">v0.1.0 | Current Version</p>
                     </div>
                     <div>
                       <p className="small_text m-0 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed?</p>
@@ -66,7 +105,7 @@ export default function Home() {
                     <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={100} height={75} />
                   </div>
                 </div>
-                <div className="row mt-4">
+                <div className="row mt-4 news_4">
                   <div className="col-8 border_l gradient_background">
                     <div>
                       <p className="small_text m-0 mt-1">v0.1.0</p>
@@ -83,7 +122,79 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="content_container mt-5">
+          <div className="content_container mt-5 responsive_version">
+            <p className="fs-2 fw-semibold">Latest News</p>
+            <div>
+              <iframe
+                className='w_100 custom_border custom_video'
+                width="1920"
+                height="1080"
+                src="https://www.youtube.com/embed/OEkEPuziyiU?si=QgQg43wjU-Fc-l9b&autoplay=0&mute=0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+              </iframe>
+            </div>
+
+            <div>
+              <div className="row w-100 mt-2 mx-0">
+                <div className="col-8 border_l gradient_background">
+                  <div>
+                    <p className="small_text m-0 mt-1">v0.1.0 | Current Version</p>
+                  </div>
+                  <div>
+                    <p className="small_text m-0 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed?</p>
+                  </div>
+                </div>
+                <div className="col-4 p-0">
+                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={100} />
+                </div>
+              </div>
+              <div className="row mt-3 w-100  mx-0">
+                <div className="col-8 border_l gradient_background">
+                  <div>
+                    <p className="small_text m-0 mt-1">v0.1.0</p>
+                  </div>
+                  <div>
+                    <p className="small_text m-0 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed?</p>
+                  </div>
+                </div>
+                <div className="col-4 p-0">
+                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={100} />
+                </div>
+              </div>
+              <div className="row mt-3 w-100  mx-0">
+                <div className="col-8 border_l gradient_background">
+                  <div>
+                    <p className="small_text m-0 mt-1">v0.1.0</p>
+                  </div>
+                  <div>
+                    <p className="small_text m-0 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed?</p>
+                  </div>
+                </div>
+                <div className="col-4 p-0">
+                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={100} />
+                </div>
+              </div>
+              <div className="row mt-3 news_4 w-100  mx-0">
+                <div className="col-8 border_l gradient_background">
+                  <div>
+                    <p className="small_text m-0 mt-1">v0.1.0</p>
+                  </div>
+                  <div>
+                    <p className="small_text m-0 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed?</p>
+                  </div>
+                </div>
+                <div className="col-4 p-0">
+                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={100} />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="content_container mt-5 normal_screenshots">
             <p className="fs-2 fw-semibold">Screenshots</p>
             <div className="row">
               <div className="col-6">
@@ -104,18 +215,39 @@ export default function Home() {
             </div>
           </div>
 
+          <div className="content_container mt-5 responsive_screenshots">
+            <p className="fs-2 fw-semibold">Screenshots</p>
+            <div className="row">
+              <div className="col-6 pe-1">
+                <Image className="w-100 h-100 custom_border" src="/img/StarterHaus.png" width={1920} height={1080} />
+              </div>
+              <div className="col-6 ps-1">
+                <Image className="w-100 h-100 custom_border" src="/img/Lagerhaus.png" width={1920} height={1080} />
+              </div>
+            </div>
+
+            <div className="row mt-2">
+              <div className="col-6 pe-1">
+                <Image className="w-100 h-100 custom_border" src="/img/Anwalt.png" width={1920} height={1080} />
+              </div>
+              <div className="col-6 ps-1">
+                <Image className="w-100 h-100 custom_border" src="/img/Shop.png" width={1920} height={1080} />
+              </div>
+            </div>
+          </div>
+
           <div className="content_container mt-5">
-            <div>
+            <div className="normal_font">
               Are you ready to dive into the adventure of our game? Step into the world of &apos;Druglord&apos;s Legacy&apos; and face exciting challenges. Build your empire from the ground up and become the ultimate master!
             </div>
-            <div>
+            <div className="normal_font">
               Download the latest version now and join our growing community. The download is just one click away, and you can start playing right away. What are you waiting for?
             </div>
             <br />
             <div>
               <a className='text-decoration-none text_white' href="/download">
                 <Button className='custom_btn border-0 w_100'>
-                  <DownloadIcon /> Download now
+                  <div className="normal_font"><DownloadIcon /> Download now</div>
                 </Button>
               </a>
             </div>

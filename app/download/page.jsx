@@ -88,7 +88,7 @@ function Page() {
                             <li>Download the ZIP File: <br />Click the download button to save the ZIP file to your computer.</li>
                             <li>Extract the Files: <br />Once the download is complete, locate the ZIP file in your file explorer. Right-click on the file and select &quot;Extract All&quot; to unzip the contents.</li>
                             <li>Open the Game Folder: <br />After extraction, open the folder that was created.</li>
-                            <li>Run the Game: <br />Inside the folder, locate the third file, which is the .exe file. Double-click on this file to launch the game.</li>
+                            <li>Run the Game: <br />Inside the folder, locate the 4th file, which is the .exe file. Double-click on this file to launch the game.</li>
                             <li>Updating the Game: <br />If there is an update available, you will need to install it manually. However, rest assured that your progress will be saved across different versions of the game.</li>
                             <li>Need Assistance?: <br />If you have any questions or need support, feel free to contact us on Discord.</li>
                         </ol>

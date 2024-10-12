@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 
 function NavigationBar() {
     return (
-        <Navbar expand="lg" className="bnavbar-dark position-fixed w_100 custom_blur z-1">
+        <Navbar expand="lg" data-bs-theme="dark" className="position-fixed w_100 custom_blur z-1">
             <Container fluid>
                 <Navbar.Brand className='text_white' href="/">Druglord&apos;s Legacy</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
