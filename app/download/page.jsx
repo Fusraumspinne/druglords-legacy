@@ -10,7 +10,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import Footer from '@/components/footer';
 
 function Page() {
-    const [releaseDate, setReleaseDate] = useState("2024-10-14");
+    const [releaseDate, setReleaseDate] = useState("2024-10-16");
     const [isDownloadEnabled, setIsDownloadEnabled] = useState(false);
     const [show, setShow] = useState(false);
 
