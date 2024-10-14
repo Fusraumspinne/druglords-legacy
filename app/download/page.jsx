@@ -10,25 +10,12 @@ import InfoIcon from '@mui/icons-material/Info';
 import Footer from '@/components/footer';
 
 function Page() {
-    const [releaseDate, setReleaseDate] = useState("2024-10-14");
-    const [isDownloadEnabled, setIsDownloadEnabled] = useState(false);
     const [show, setShow] = useState(false);
 
     const [downloadCounter, setDownloadCounter] = useState(0)
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-
-    useEffect(() => {
-        const today = new Date();
-        const release = new Date(releaseDate);
-
-        if (release > today) {
-            setIsDownloadEnabled(false);
-        } else {
-            setIsDownloadEnabled(true);
-        }
-    }, [releaseDate]);
 
     useEffect(() => {
         fetchCounter()
@@ -113,21 +100,15 @@ function Page() {
                                 <Button className="p-0 bg-dark border-0 ms-2" onClick={handleShow}><InfoIcon /></Button>
                             </div>
 
-                            <p>Release Date: {releaseDate} | Download Counter: {downloadCounter}</p>
+                            <p>Windows Version | Download Counter: {downloadCounter}</p>
 
-                            <Image className="w_100 h_100 border_o" src={"/img/Platzhalter.png"} width={1920} height={1080} />
+                            <Image className="w_100 h_100 border_o" src={"/img/Hauptmenu.png"} width={1920} height={1080} />
 
-                            {isDownloadEnabled ? (
-                                <a className="text-decoration-none text_white" href="/Druglord's Legacy.zip" download>
-                                    <Button className="custom_btn border-0 w_100 border_u" onClick={handleCounterUpdate}>
-                                        <div className="normal_font"><DownloadIcon /> Download - Test Version v.0.1.0 | Size ~ 500MB</div>
-                                    </Button>
-                                </a>
-                            ) : (
-                                <Button className="custom_btn border-0 w_100 border_u text_white" disabled>
-                                    <div className="normal_font"><DownloadIcon /> Download - Test Version v.0.1.0 | Size ~ 500MB</div>
+                            <a className="text-decoration-none text_white" href="/Druglord's Legacy.zip" download>
+                                <Button className="custom_btn border-0 w_100 border_u" onClick={handleCounterUpdate}>
+                                    <div className="normal_font"><DownloadIcon /> Download - Test Version v.0.1.0 | Size ~ 400MB</div>
                                 </Button>
-                            )}
+                            </a>
 
                             <div className="d-flex align-items-center mt-2">
                                 <Button className="p-0 bg-dark border-0 me-2" onClick={handleShow}><InfoIcon /></Button>
