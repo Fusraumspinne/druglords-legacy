@@ -37,7 +37,6 @@ function Page() {
                         <li>Lawyer for Money Laundering</li>
                         <li>Undercover Police</li>
                         <li>Distributors</li>
-                        <li>New Pickup System</li>
                         <li>Sounds</li>
                         <li>Performance Update</li>
                         <li>Meth Production</li>
