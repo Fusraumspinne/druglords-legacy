@@ -98,11 +98,11 @@ export default function Home() {
                       <p className="small_text m-0 mt-1">v0.1.0 | Realese</p>
                     </div>
                     <div>
-                      <p className="small_text m-0 mt-2">Realese from the Test Version on our Discord</p>
+                      <p className="small_text m-0 mt-2">Realese from the Test Version, join on our Discord</p>
                     </div>
                   </div>
                   <div className="col-4 p-0">
-                    <Image className='w_100 border_r' src={"/img/HauptMenu.png"} width={100} height={75} />
+                    <Image className='w_100 border_r' src={"/img/Hauptmenu.png"} width={100} height={75} />
                   </div>
                 </div>
                 <div className="row mt-4 news_4">
@@ -142,40 +142,40 @@ export default function Home() {
               <div className="row w-100 mt-2 mx-0">
                 <div className="col-8 border_l gradient_background">
                   <div>
-                    <p className="small_text m-0 mt-1">v0.1.0 | Current Version</p>
+                    <p className="small_text m-0 mt-1">v0.1.2 | Current Version</p>
                   </div>
                   <div>
-                    <p className="small_text m-0 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed?</p>
+                    <p className="small_text m-0 mt-2">Major Bugfixes from the Test Version Realese</p>
                   </div>
                 </div>
                 <div className="col-4 p-0">
-                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={80} />
+                  <Image className='w_100 border_r' src={"/img/BugImage.jpg"} width={300} height={80} />
                 </div>
               </div>
               <div className="row mt-3 w-100  mx-0">
                 <div className="col-8 border_l gradient_background">
                   <div>
-                    <p className="small_text m-0 mt-1">v0.1.0</p>
+                    <p className="small_text m-0 mt-1">v0.1.1</p>
                   </div>
                   <div>
-                    <p className="small_text m-0 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed?</p>
+                    <p className="small_text m-0 mt-2">Major Bugfixes from the Test Version Realese</p>
                   </div>
                 </div>
                 <div className="col-4 p-0">
-                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={80} />
+                  <Image className='w_100 border_r' src={"/img/BugImage.jpg"} width={300} height={80} />
                 </div>
               </div>
               <div className="row mt-3 w-100  mx-0">
                 <div className="col-8 border_l gradient_background">
                   <div>
-                    <p className="small_text m-0 mt-1">v0.1.0</p>
+                    <p className="small_text m-0 mt-1">v0.1.0 | Realese</p>
                   </div>
                   <div>
-                    <p className="small_text m-0 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed?</p>
+                    <p className="small_text m-0 mt-2">Realese from the Test Version, join on our Discord</p>
                   </div>
                 </div>
                 <div className="col-4 p-0">
-                  <Image className='w_100 border_r' src={"/img/Platzhalter.png"} width={300} height={80} />
+                  <Image className='w_100 border_r' src={"/img/Hauptmenu.png"} width={300} height={80} />
                 </div>
               </div>
               <div className="row mt-3 news_4 w-100  mx-0">
