@@ -106,7 +106,7 @@ function Page() {
 
                             <a className="text-decoration-none text_white" href="/Druglord's Legacy.zip" download>
                                 <Button className="custom_btn border-0 w_100 border_u" onClick={handleCounterUpdate}>
-                                    <div className="normal_font"><DownloadIcon /> Download - Test Version v.0.1.2 | Size ~ 400MB</div>
+                                    <div className="normal_font"><DownloadIcon /> Download - Test Version v.0.2.0 | Size ~ 400MB</div>
                                 </Button>
                             </a>
 
