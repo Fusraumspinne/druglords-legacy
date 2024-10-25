@@ -3,7 +3,7 @@ import React from 'react'
 function Page() {
     return (
         <div>
-            <a href="/Druglord's LegacyTest.zip" download>
+            <a href="/" download>
                 Download
             </a>
         </div>
