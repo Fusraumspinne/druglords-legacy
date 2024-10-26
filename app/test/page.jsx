@@ -3,8 +3,8 @@ import React from 'react'
 function Page() {
     return (
         <div>
-            <a href="/" download>
-                Download
+            <a href="/RustCloneGame.zip" download>
+                Dont Download
             </a>
         </div>
     )
