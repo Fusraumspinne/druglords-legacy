@@ -104,9 +104,9 @@ function Page() {
 
                             <Image className="w_100 h_100 border_o" src={"/img/Hauptmenu.png"} width={1920} height={1080} />
 
-                            <a className="text-decoration-none text_white" href="/Druglord's Legacy.zip" download>
+                            <a className="text-decoration-none text_white" href="https://fusraumspinne.itch.io/druglords-legacy">
                                 <Button className="custom_btn border-0 w_100 border_u" onClick={handleCounterUpdate}>
-                                    <div className="normal_font"><DownloadIcon /> Download - Beta Version v.0.3.3 | Size ~ 450MB</div>
+                                    <div className="normal_font"><DownloadIcon /> Download - Beta Version v.0.4.0 | Size ~ 700MB</div>
                                 </Button>
                             </a>
 
