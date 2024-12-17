@@ -106,7 +106,7 @@ function Page() {
 
                             <a className="text-decoration-none text_white" href="https://marvin-dev.itch.io/druglords-legacy">
                                 <Button className="custom_btn border-0 w_100 border_u" onClick={handleCounterUpdate}>
-                                    <div className="normal_font"><DownloadIcon /> Download - Beta Version v.0.4.0 | Size ~ 700MB</div>
+                                    <div className="normal_font"><DownloadIcon /> Download - Beta Version v.0.5.0 | Size ~ 750MB</div>
                                 </Button>
                             </a>
 
