@@ -30,14 +30,15 @@ function Page() {
                                     <li>
                                         Day
                                         <ul>
-                                            <li>Day/Night cycle: 20min</li>
+                                            <li>Day/Night cycle: 24min</li>
                                         </ul>
                                     </li>
                                     <li>
                                         Level
                                         <ul>
                                             <li>MaxXp starts with 15xp</li>
-                                            <li>MaxXp for the level rise by 5%</li>
+                                            <li>MaxXp for the level rise by a custom list</li>
+                                            <li>The last increase of the MaxXp is at level 200</li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -49,14 +50,7 @@ function Page() {
                                 Cannabis
                                 <ul>
                                     <li>
-                                        Shelf
-                                        <ul>
-                                            <li>Price: $1000</li>
-                                            <li>Research: 0pt</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        Packstation cannabis
+                                        Packstation Cannabis
                                         <ul>
                                             <li>Price: $1500</li>
                                             <li>Research: 0pt</li>
@@ -96,7 +90,7 @@ function Page() {
                                         </ul>
                                     </li>
                                     <li>
-                                        Watering can
+                                        Watering Can
                                         <ul>
                                             <li>Price: $50</li>
                                             <li>Research: 0pt</li>
@@ -143,7 +137,7 @@ function Page() {
                                         </ul>
                                     </li>
                                     <li>
-                                        Dryingrack small
+                                        Dryingrack Small
                                         <ul>
                                             <li>Price: $800</li>
                                             <li>Research: 0pt</li>
@@ -151,7 +145,7 @@ function Page() {
                                         </ul>
                                     </li>
                                     <li>
-                                        Dryingrack big
+                                        Dryingrack Big
                                         <ul>
                                             <li>Price: $1750</li>
                                             <li>Research: 2pt</li>
@@ -167,7 +161,7 @@ function Page() {
                                         </ul>
                                     </li>
                                     <li>
-                                        Fan small
+                                        Fan Small
                                         <ul>
                                             <li>Price: $2500</li>
                                             <li>Research: 3pt</li>
@@ -175,7 +169,7 @@ function Page() {
                                         </ul>
                                     </li>
                                     <li>
-                                        Fan big
+                                        Fan Big
                                         <ul>
                                             <li>Price: $6000</li>
                                             <li>Research: 4pt</li>
@@ -183,7 +177,7 @@ function Page() {
                                         </ul>
                                     </li>
                                     <li>
-                                        Purplelight small
+                                        Purplelight Small
                                         <ul>
                                             <li>Price: $2350</li>
                                             <li>Research: 2pt</li>
@@ -191,7 +185,7 @@ function Page() {
                                         </ul>
                                     </li>
                                     <li>
-                                        Purplelight big
+                                        Purplelight Big
                                         <ul>
                                             <li>Price: $4200</li>
                                             <li>Research: 3pt</li>
@@ -199,17 +193,27 @@ function Page() {
                                         </ul>
                                     </li>
                                     <li>
-                                        Sprinkler small
+                                        Sprinkler Small
                                         <ul>
                                             <li>Price: $1900</li>
                                             <li>Research: 2pt</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Sprinkler big
+                                        Sprinkler Big
                                         <ul>
                                             <li>Price: $3200</li>
                                             <li>Research: 3pt</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                Other
+                                <ul>
+                                    <li>
+                                        Shelf
+                                        <ul>
+                                            <li>Price: $1000</li>
+                                            <li>Research: 0pt</li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -273,9 +277,39 @@ function Page() {
                                         </ul>
                                     </li>
                                     <li>
+                                        Warehouse 2
+                                        <ul>
+                                            <li>Price: $250000</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Warehouse 3
+                                        <ul>
+                                            <li>Price: $1000000</li>
+                                        </ul>
+                                    </li>
+                                    <li>
                                         Gas Station
                                         <ul>
                                             <li>Price: $50000</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Fried Chicken Store
+                                        <ul>
+                                            <li>Price: $200000</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Supermarket
+                                        <ul>
+                                            <li>Price: $500000</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Distributor Station
+                                        <ul>
+                                            <li>Price: $450000</li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -286,44 +320,197 @@ function Page() {
                             <Accordion.Body>
                                 <ul>
                                     <li>
-                                        Cannabis workers
+                                        Cannabis Workers
                                         <ul>
                                             <li>Price: $3000</li>
                                             <li>Salary: $1000/day</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Cannabis restocker
+                                        Cannabis Restocker
                                         <ul>
                                             <li>Price: $4000</li>
                                             <li>Salary: $2000/day</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Gas station workers
+                                        Meth Workers
+                                        <ul>
+                                            <li>Price: $7500</li>
+                                            <li>Salary: $2500/day</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Meth Restocker
+                                        <ul>
+                                            <li>Price: $10000</li>
+                                            <li>Salary: $5000/day</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Gas Station Workers
                                         <ul>
                                             <li>Price: $5000</li>
                                             <li>Salary: $3000/day</li>
+                                            <li>Workers: 2</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Fried Chicken Store Workers
+                                        <ul>
+                                            <li>Price: $7500</li>
+                                            <li>Salary: $5000/day</li>
+                                            <li>Workers: 3</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Supermarket Workers
+                                        <ul>
+                                            <li>Price: $10000</li>
+                                            <li>Salary: $7500/day</li>
+                                            <li>Workers: 4</li>
                                         </ul>
                                     </li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="5">
-                            <Accordion.Header>Lawyer</Accordion.Header>
+                            <Accordion.Header>Lawyers</Accordion.Header>
                             <Accordion.Body>
                                 <ul>
                                     <li>
-                                        XP
+                                        Lawyer
                                         <ul>
-                                            <li>XP per dollad: $500 = 1xp</li>
+                                            <li>
+                                                XP
+                                                <ul>
+                                                    <li>XP per dollad: $500 = 1xp</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Deposit Money
+                                                <ul>
+                                                    <li>Cut: 0%</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Access to small gang
+                                            </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Deposit Money
+                                        Lawyer Firm
                                         <ul>
-                                            <li>Cut: 0%</li>
+                                            <li>
+                                                XP
+                                                <ul>
+                                                    <li>XP per dollad: $500 = 1xp</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Deposit Money
+                                                <ul>
+                                                    <li>Cut: 0%</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Access to big gang
+                                            </li>
                                         </ul>
+                                    </li>
+                                </ul>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="6">
+                            <Accordion.Header>Gangs</Accordion.Header>
+                            <Accordion.Body>
+                                <ul>
+                                    <li>
+                                        Small Gang
+                                        <ul>
+                                            <li>
+                                                Cut: 45%
+                                            </li>
+                                            <li>
+                                                Offers
+                                                <ul>
+                                                    <li>
+                                                        7000
+                                                    </li>
+                                                    <li>
+                                                        10000
+                                                    </li>
+                                                    <li>
+                                                        16000
+                                                    </li>
+                                                    <li>
+                                                        22000
+                                                    </li>
+                                                    <li>
+                                                        30000
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Time: 12min
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Big Gang
+                                        <ul>
+                                            <li>
+                                                Cut: 60%
+                                            </li>
+                                            <li>
+                                                Offers
+                                                <ul>
+                                                    <li>
+                                                        40000
+                                                    </li>
+                                                    <li>
+                                                        55000
+                                                    </li>
+                                                    <li>
+                                                        65000
+                                                    </li>
+                                                    <li>
+                                                        80000
+                                                    </li>
+                                                    <li>
+                                                        100000
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Time: 24min
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="7">
+                            <Accordion.Header>Online Market</Accordion.Header>
+                            <Accordion.Body>
+                                <ul>
+                                    <li>
+                                        25 Visitors at the Start
+                                    </li>
+                                    <li>
+                                        Adding new Drug increases Visitors
+                                    </li>
+                                    <li>
+                                        Removing Drug decreases Visitors
+                                    </li>
+                                    <li>
+                                        Lower Price adds Visitors
+                                    </li>
+                                    <li>
+                                        Higher Price removes Visitors
+                                    </li>
+                                    <li>
+                                        After 24 min the Visitors will increase or decrease depending on the offers you delivered relative to the Visitors
                                     </li>
                                 </ul>
                             </Accordion.Body>
@@ -331,7 +518,6 @@ function Page() {
                     </Accordion>
                 </div>
             </div>
-
             <Footer />
         </div>
     )
