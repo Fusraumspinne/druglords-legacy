@@ -104,7 +104,7 @@ function Page() {
 
                             <Image className="w_100 h_100 border_o" src={"/img/Hauptmenu.png"} width={1920} height={1080} />
 
-                            <a className="text-decoration-none text_white" href="https://marvin-dev.itch.io/druglords-legacy">
+                            <a className="text-decoration-none text_white" href="https://www.dropbox.com/scl/fi/c6d83iqyxij314gwx9wco/Druglord-s-Legacy.zip?rlkey=z0upkxl3r865q3lycipc6zx9f&st=64mhhvy9&dl=0">
                                 <Button className="custom_btn border-0 w_100 border_u" onClick={handleCounterUpdate}>
                                     <div className="normal_font"><DownloadIcon /> Download - Beta Version v.0.5.0 | Size ~ 750MB</div>
                                 </Button>
