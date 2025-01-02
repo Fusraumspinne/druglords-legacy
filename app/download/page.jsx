@@ -104,7 +104,7 @@ function Page() {
 
                             <Image className="w_100 h_100 border_o" src={"/img/Hauptmenu.png"} width={1920} height={1080} />
 
-                            <a className="text-decoration-none text_white" href="https://dl.dropboxusercontent.com/scl/fi/xa3160a780r00qadggnz7/Druglord-s-Legacy.zip?rlkey=plbno1wnug1rcopck0yv84zvm&st=afmkm99k">
+                            <a className="text-decoration-none text_white" href="https://dl.dropboxusercontent.com/scl/fi/cw42sxqd2tcxd51ciliw8/Druglord-s-Legacy.zip?rlkey=fio91sfl160149xpu6qg38d19&st=ph7x8e2g">
                                 <Button className="custom_btn border-0 w_100 border_u" onClick={handleCounterUpdate}>
                                     <div className="normal_font"><DownloadIcon /> Download - Beta Version v.0.6.0 | Size ~ 750MB</div>
                                 </Button>
