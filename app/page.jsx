@@ -56,7 +56,7 @@ export default function Home() {
                   className='w_100 h_100 custom_border'
                   width="1920"
                   height="1080"
-                  src="https://www.youtube.com/embed/OEkEPuziyiU?si=QgQg43wjU-Fc-l9b&autoplay=0&mute=0"
+                  src="https://www.youtube.com/embed/Uxe6uFr8isc?si=yhxWfGISFI9eQatA&autoplay=0&mute=0"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
