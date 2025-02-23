@@ -103,9 +103,9 @@ function Page() {
                             <p>Windows Version | Download Counter: {downloadCounter}</p>
 
                             <Image className="w_100 h_100 border_o" src={"/img/Hauptmenu.png"} width={1920} height={1080} />
-                            <a className="text-decoration-none text_white" href="https://dl.dropboxusercontent.com/scl/fi/yl8tj99lh7ex5ihxyxt80/Druglord-s-Legacy.zip?rlkey=ra30vzcoo8tao57iboz6y3uki&st=qg1g26xy">
+                            <a className="text-decoration-none text_white" href="https://dl.dropboxusercontent.com/scl/fi/sbkphxsld8opy9c3ah8kt/Druglord-s-Legacy.zip?rlkey=gwsug1op91c0qteu5mmsgqq5p&st=db88i7br">
                                 <Button className="custom_btn border-0 w_100 border_u" onClick={handleCounterUpdate}>
-                                    <div className="normal_font"><DownloadIcon /> Download - Beta Version v.0.7.2 | Size ~ 750MB</div>
+                                    <div className="normal_font"><DownloadIcon /> Download - Beta Version v.0.7.3 | Size ~ 750MB</div>
                                 </Button>
                             </a>
 
